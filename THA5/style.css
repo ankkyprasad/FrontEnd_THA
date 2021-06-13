@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+html,body{
+    background-color: #e06f64;
+    background-image: linear-gradient(27deg, #e06f64 36%, #c1345f 58%, #c94c4c 91%);
+    background-repeat:no-repeat;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    }
+
+#calculator .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 94, 0, 0.911);
+    font-size: 2rem;
+    color: snow;
+    border-radius: 30%;
+}
+
+#calculator{
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 45px;
+    width: 300px;
+    position: relative;
+    left: 35%;
+    top: 20%;
+    background: rgba(17, 1, 1, 0.904);
+    padding: 16px;
+    border-radius: 4%;
+}
+
+.display{
+    grid-column: 1 / -1;
+    font-size: 2.3rem;
+    color: snow;
+    height: 40px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+#display-content{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.large-ver{
+    grid-row: span 2;
+}
+
+.large-hor{
+    grid-column: span 2;
+}
+
+#calculator .button:hover{
+    background: rgb(230, 109, 29);
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="calculator">
+            <div class="display">
+                <p id="display-content"></p>
+            </div>
+            <div class="button" onclick="show('7');">7</div>
+            <div class="button" onclick="show('8');">8</div>
+            <div class="button" onclick="show('9');">9</div>
+            <div class="button" onclick="show('/');">÷</div>
+            <div class="button" onclick="show('4');">4</div>
+            <div class="button" onclick="show('5');">5</div>
+            <div class="button" onclick="show('6');">6</div>
+            <div class="button" onclick="show('*');">x</div>
+            <div class="button" onclick="show('1');">1</div>
+            <div class="button" onclick="show('2');">2</div>
+            <div class="button" onclick="show('3');">3</div>
+            <div class="button" onclick="show('-');">-</div>
+            <div class="button" onclick="allClear();">AC</div>
+            <div class="button" onclick="show('0');">0</div>
+            <div class="button" onclick = "del();">DEL</div>
+            <div class="button large-ver" onclick="show('+');">+</div>
+            <div class="button" onclick="show('.');">.</div>
+            <div class="button large-hor" onclick="calculate();">=</div>
+        </div>
+        <script src = "script.js" ></script>
+    </body>
+</html>
