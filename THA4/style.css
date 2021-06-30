@@ -28,8 +28,41 @@
 
 .hour{
     transform: rotate(50deg);
+    animation: rotate1 30s linear infinite reverse;
+}
+
+@keyframes rotate1{
+    from{
+        transform:rotate(360deg)
+    }
+    to{
+        transform: rotate(0deg);
+    }
 }
 
 .minute{
     transform: rotate(250deg);
+    animation: rotate2 5s linear infinite;
+}
+
+@keyframes rotate2{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.second{
+    animation: rotate3 3s linear infinite;
+}
+
+@keyframes rotate3{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
