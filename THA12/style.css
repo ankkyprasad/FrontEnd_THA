@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.to-do{
+    border: 2px solid black;
+    height: 100vh;
+}
+
+#todo-input{
+    margin: 10px;
+    font-size: 2rem;
+    color: snow;
+    background-color: slateblue;
+    position: relative;
+    left: 34%;
+    top: 40%;
+}
+
+#add{
+    font-size: 2rem;
+    color: snow;
+    background-color: slateblue;
+    padding: 0px 10px;
+    position: relative;
+    top: 40%;
+    left: 35%;
+}
+
+.task-list{
+    font-size: 1.5rem;
+    color: snow;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    margin-top: 20px;
+}
+
+.remove{
+    color: snow;
+    font-size:1.2rem;
+    padding: 0px 10px;
+    background-color: rgba(212, 4, 4, 0.884);
+    border: 2px solid rgb(100, 0, 0);
+    margin: 0 10px;
+}
+
+.remove:active{
+    border: 1px solid rgb(100, 0, 0);
+}
+
+.done{
+    color: snow;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    background-color: seagreen;
+    border: 2px solid rgb(15, 87, 46);
+}
+
+.done:active{
+    border: 1px solid rgb(15, 87, 46);
+}
