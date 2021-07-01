@@ -23,6 +23,7 @@ function eventAssigner(){
     
     doneButton.forEach(done => done.addEventListener('click', ()=>{
         done.parentElement.innerHTML += "&#9989;";
+        eventAssigner();
     }));
 }
 
