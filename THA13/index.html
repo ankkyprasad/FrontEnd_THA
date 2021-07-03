@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make me laugh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chuck Norris Lame Jokes</h1>
+    <div class="joke-container">
+        <button id="joke-button">Make me Laugh</button>
+        <div class="joke-screen"></div>
+    </div>
+
+
+    <script>
+        let jokeScreenEl = document.querySelector(".joke-screen");
+        let JokeButtonEl = document.querySelector("#joke-button");
+
+        async function getJokes(){
+            let randomJoke = await fetch("https://api.chucknorris.io/jokes/random")
+                .then((response) => response.json())
+                .then(data => data.value);
+            return randomJoke
+        }
+
+        JokeButtonEl.addEventListener('click', ()=>{
+            let joke = getJokes();
+            joke
+                .then(success => jokeScreenEl.textContent = success)
+                .catch(error => console.log(error))
+        });
+
+    </script>
+</body>
+</html>
