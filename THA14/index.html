@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #btn{
+            background-color: blanchedalmond;
+            border-radius: 25px;
+            font-size: 1.7rem;
+            padding: 6px 28px;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        #btn:hover{
+            background-color: rgba(196, 180, 157, 0.568);
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="btn" ondblclick="changecolor();">Double Click Me</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
