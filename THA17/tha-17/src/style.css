@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cal-container{
+    width: 30vw;
+    border: 2px solid black;
+    height: 50vh;
+    overflow-y: scroll;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    padding: 15px 10px;
+    box-shadow: 5px 7px 3px 2px #888888;
+}
+
+.calorie-data{
+    border: 2px solid green;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    background-color: aliceblue;
+    height: 15vh;
+}
+
+.calorie-data p{
+    font-size: 20px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.calorie-data h2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
