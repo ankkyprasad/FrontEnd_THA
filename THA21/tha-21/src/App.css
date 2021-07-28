@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  letter-spacing: 0.5px;
+}
+
+.calorie-main{
+  /* border: 1px solid black; */
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.calorie-input{
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.calorie-input input{
+  font-size: 1.3rem;
+  margin: 0 8px;
+  width: 18%;
+  padding: 5px;
+}
+
+.calorie-button button{
+  font-size: 1.3rem;
+  padding: 6px;
+  margin-bottom: 8px;
+  width: 10%;
+  color: black;
+  border: 2px solid blue;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+.calorie-button button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.calorie-card{
+  /* border: 1px solid black; */
+  /* text-align: center; */
+  margin-top: 10px;
+}
+
+.calorie-card h1{
+  margin: 5px 0;
+  text-align: center;
+}
+
+.cal-items{
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  width: 40%;
+  margin: 15px 0;
+  padding: 30px 20px;
+  box-shadow: 2px 2px 10px -4px rgba(0,0,0,0.32);
+}
+
+.calorie-card-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.cal-items li p{
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.cal-items li h2{
+  font-size: 2rem;
+}
+
+.item-btn{
+  padding: 4px 0;
+}
+
+.item-btn button{
+  font-size: 1.3rem;
+  padding: 6px;
+  color: black;
+  background-color: white;
+  transition-duration: 0.4s;
+}
+
+.edit-btn{
+  margin-left: 10px;
+  border: 2px solid blue;
+}
+
+.edit-btn:hover{
+  background-color: blue;
+  color: white;
+}
+
+.delete-btn{
+  border: 2px solid red;
+}
+
+.delete-btn:hover{
+  background-color: red;
+  color: white;
+}
