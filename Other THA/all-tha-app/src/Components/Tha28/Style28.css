@@ -1,0 +1,64 @@
+.tha-28{
+    text-align: center;
+    width: 100%;
+}
+
+.tha-28 .form{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.tha-28 .form button{
+    margin: 0 10px;
+}
+
+.tha-28 .form input{
+    padding: 0 10px;
+}
+
+.tha-28 .card{
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.144);
+}
+
+.tha-28 .card img{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.tha-28 .card .place{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+.tha-28 .whp{
+    margin: 20px 0;
+}
+
+.tha-28 .card .temp{
+    font-size: 4rem;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.tha-28 .whp .title{
+    font-size: 0.8rem;
+
+}
+
+.tha-28 .whp .data{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.tha-28 .whp .data .unit{
+    font-size: 0.8rem;
+}
+
+.tha-28 .card .desc{
+    font-size: 0.8rem;
+    font-weight: 500;
+}

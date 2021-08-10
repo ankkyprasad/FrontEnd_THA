@@ -1,0 +1,28 @@
+.tha-26{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #FF4C29;
+    background-color: #082032;
+    font-size: 1.7rem;
+}
+
+.tha-26 h1{
+    margin: 2rem 0;
+}
+
+.tha-26 input{
+    padding: 5px 10px;
+    margin: 7px 50px;
+    font-size: 1.5rem;
+}
+
+.display{
+    color: white;
+    margin: 8rem auto;
+}
+
+.display div{
+    margin: 1.5rem 0;
+}

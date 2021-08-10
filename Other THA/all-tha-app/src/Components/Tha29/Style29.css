@@ -1,0 +1,81 @@
+.tha-29{
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.tha-29 .form{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.tha-29 .form button{
+    margin: 0 10px;
+}
+
+.tha-29 .form input{
+    padding: 0 10px;
+}
+
+.tha-29 .card{
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.144);
+}
+
+.tha-29 .card img{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.tha-29 .card .place{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+.tha-29 .whp{
+    margin: 20px 0;
+}
+
+.tha-29 .card .temp{
+    font-size: 4rem;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.tha-29 .whp .title{
+    font-size: 0.8rem;
+
+}
+
+.tha-29 .whp .data{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.tha-29 .whp .data .unit{
+    font-size: 0.8rem;
+}
+
+.tha-29 .card .desc{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.tha-29 .toggle-theme{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.tha-29.dark{
+    background-color: black;
+    color: white;
+}
+
+.tha-29 .card.dark{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
