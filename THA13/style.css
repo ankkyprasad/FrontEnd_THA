@@ -1,72 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-h1{
-    color: rgb(253, 250, 57);
-    margin: 12px;
-    left: 32%;
-    top: 5%;
-    position: absolute;
-    font-size: 48px;
-    display: flex;
+h1 {
+  color: rgb(253, 250, 57);
+  margin: 12px;
+  left: 32%;
+  top: 5%;
+  position: absolute;
+  font-size: 48px;
+  display: flex;
 }
 
-.joke-container{
-    height: 40vh;
-    width: 60%;
-    position: absolute;
-    top: 30%;
-    left:20%;
+.joke-container {
+  height: 40vh;
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
 
-#joke-button{
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 30%;
-    margin: 10px;
-    padding: 8px;
-    box-shadow: 2px 2px 10px 1px blanchedalmond;
-    border: 2px solid blanchedalmond;
-    position: absolute;
-    top: 10%;
-    left: 33%;
-    font-family: 'Zen Tokyo Zoo', cursive;
+#joke-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 30%;
+  margin: 10px;
+  padding: 8px;
+  box-shadow: 2px 2px 10px 1px blanchedalmond;
+  border: 2px solid blanchedalmond;
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  font-family: "Zen Tokyo Zoo", cursive;
 }
 
-#joke-button:hover{
-    background-color: rgba(255, 239, 215, 0.918);
-    border: 1px solid whitesmoke;
+#joke-button:hover {
+  background-color: rgba(255, 239, 215, 0.918);
+  border: 1px solid whitesmoke;
 }
 
-#joke-button:active{
-    background-color: rgba(255, 235, 205, 0.726);
-    border: 1px solid rgba(255, 235, 205, 0.726);
-    transform: scale(0.95);
+#joke-button:active {
+  background-color: rgba(255, 235, 205, 0.726);
+  border: 1px solid rgba(255, 235, 205, 0.726);
+  transform: scale(0.95);
 }
 
-.joke-screen{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    width: 80%;
-    min-height: 10vh;
-    background-color: rgb(223, 231, 185);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: 3px;
-    font-family: 'Mukta', sans-serif;
-    padding: 15px;
+.joke-screen {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+  min-height: 10vh;
+  background-color: rgb(223, 231, 185);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 3px;
+  font-family: "Mukta", sans-serif;
+  padding: 15px;
 }

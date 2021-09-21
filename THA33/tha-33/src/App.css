@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+button{
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: 100ms;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.theme-toggle{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+.theme-toggle.dark{
+  background-color: white;
+  color: black;
+}
+
+.todos{
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 50px;
+}
+
+.todos.dark{
+  background-color: rgba(0, 0, 0, 0.856);
+  /* color: white; */
+}
+
+.todos button{
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.todos input{
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 0 10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border: 3px solid #ccc;
+  outline: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.todo-list{
+  /* margin: 10px 0; */
+  border: 1px solid rgba(3, 3, 3, 0.089);
+  width: 30vw;
+  margin: 2rem auto;
+  padding-bottom: 13px;
+  box-shadow: 1px 1px 13px 2px rgba(15, 15, 15, 0.308);
+  background: whitesmoke;
+  border-radius: 4px;
+}
+
+.todo-list button{
+  margin: 8px 10px;
+}
+
+.task-completed{
+  text-decoration: line-through;
+}
+
+h3{
+  font-size: 2rem;
+  margin: 5px 25px;
+  letter-spacing: 1px;
+}

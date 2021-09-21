@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  text-align: center;
+}
+
+button, input{
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+h3{
+  display: inline-block;
+}
